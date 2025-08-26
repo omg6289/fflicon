@@ -100,7 +100,7 @@ async function fetchIcons() {
             Rare: item["Rare"],
             displayRarity: rarityDisplayNames[item["Rare"]] || item["Rare"],
             cardImageUrl: rarityCardImages[item["Rare"]] || 'assets/images/card/COMMON.png',
-            iconUrl: `https://cdn.jsdelivr.net/gh/9112000/OB49@main/ICONS/${item["itemID"]}.png`
+            iconUrl: `https://dl.dir.freefiremobile.com/common/Local/PK/FF_UI_Icon/${item["itemID"]}.png`
         }));
 
         iconsData.forEach(item => {
